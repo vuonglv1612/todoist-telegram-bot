@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "todoist_telegram_bot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+environs = "^9.5.0"
+pyTelegramBotAPI = "^4.4.0"
+aiohttp = {extras = ["speedups"], version = "^3.8.1"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
